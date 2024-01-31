@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Header } from "../../components/Header";
+import { Header } from "../../../components/Header";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Hello Docs{" "}
+          Hello Docs{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
