@@ -1,9 +1,13 @@
 import { Header } from "../../components/Header";
 import { Headline } from "../../components/Headline";
+import { LinkBtn } from "../../components/LinkBtn";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+
+      <LinkBtn/>
+
       <Header file="src/app/page.js"/>
 
       <Headline title="home page"/>
